@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG BestShop & Meriz</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600&display=swap">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+	<link rel="icon" href="https://sjwcode09.github.io/resource/web_publisher/Project_1/LG_favicon.png">
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/Project_1.js"></script>
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="inner">
+                <div class="logo">
+                    <a href="">
+                        <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">매장안내</a>
+                            <ul>
+                                <li><a href="">매장찾기</a></li>
+                                <li><a href="">행사매장안내</a></li>
+                                <li><a href="">아이폰 판매 매장</a></li>
+                                <li><a href="">야간 무인 매장안내</a></li>
+                                <li><a href="">서비스 센터 찾기</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">상담예약</a>
+                            <ul>
+                                <li><a href="">매장 상담 예약</a></li>
+                                <li><a href="">영상 상담 예약</a></li>
+                                <li><a href="">수어 상담 예약</a></li>
+                                <li><a href="">상담 예약 조회</a></li>
+                                <li><a href="">시스템 에어컨 상담 예약</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">제품정보</a>
+                            <ul>
+                                <li><a href="">내게 맞는 제품 찾기</a></li>
+                                <li><a href="">제품 카탈로그</a></li>
+                                <li><a href="">제품 사용 설명서</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">이벤트</a>
+                            <ul>
+                                <li><a href="">웨딩페어</a></li>
+                                <li><a href="">베스트샵 라이브</a></li>
+                                <li><a href="">아파트 입주 이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">제휴채널</a>
+                            <ul>
+                                <li><a href="">오브제 컬렉션 클럽</a></li>
+                                <li><a href="">우리동네 파트너스</a></li>
+                                <li><a href="">베스트샵 제휴 문의</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="utils">
+                    <a href="" class="search"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon-search-48.png" alt="search"></a>
+                    <a href="" class="person"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon-person.png" alt="person"></a>
+                    <a href=""><span>LGE.COM</span></a>
+                </div>
+			<div class="tab">
+				<a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon_meun_black.png" alt="tab"></a>
+			</div>
+			<div id="tab">
+				<ul>
+					<li><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon_meun.png" alt="tab"></a></li>
+				</ul>
+			</div>
+		
+            </div>
+        </header>
+
+		<div id="mobile">
+			<a href="" id="exit_1"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/btn-close-32.png" alt="exit"></a>
+            <ul>
+                <li>
+                    <a href="">매장안내</a>
+                    <ul>
+                        <li><a href="">매장찾기</a></li>
+                        <li><a href="">행사매장안내</a></li>
+                        <li><a href="">아이폰 판매 매장</a></li>
+                        <li><a href="">야간 무인 매장안내</a></li>
+                        <li><a href="">서비스 센터 찾기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">상담예약</a>
+                    <ul>
+                        <li><a href="">매장 상담 예약</a></li>
+                        <li><a href="">영상 상담 예약</a></li>
+                        <li><a href="">수어 상담 예약</a></li>
+                        <li><a href="">상담 예약 조회</a></li>
+                        <li><a href="">시스템 에어컨 상담 예약</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">제품정보</a>
+                    <ul>
+                        <li><a href="">내게 맞는 제품 찾기</a></li>
+                        <li><a href="">제품 카탈로그</a></li>
+                        <li><a href="">제품 사용 설명서</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">이벤트</a>
+                    <ul>
+                        <li><a href="">웨딩페어</a></li>
+                        <li><a href="">베스트샵 라이브</a></li>
+                        <li><a href="">아파트 입주 이벤트</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">제휴채널</a>
+                    <ul>
+                        <li><a href="">오브제 컬렉션 클럽</a></li>
+                        <li><a href="">우리동네 파트너스</a></li>
+                        <li><a href="">베스트샵 제휴 문의</a></li>
+                    </ul>
+                </li>
+            </ul>
+	</div>
+
+		<div id="sitemap">
+			<div class="top">
+				<div class="top_inner">
+					<ul>
+						<li><a href="" id="exit"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/btn-close-32.png" alt="exit"></a></li>
+					</ul>
+						<div class="logo">
+							<a href="">
+								<img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/logo.svg" alt="logo">
+							</a>
+						</div>
+
+						<div class="top_bottom">
+							<ul>
+						<li>
+							<a href=""><span>매장안내</span></a>
+							<ul>
+								<li><a href="">매장찾기</a></li>
+								<li><a href="">행사매장안내</a></li>
+								<li><a href="">아이폰 판매 매장</a></li>
+								<li><a href="">야간 무인 매장안내</a></li>
+								<li><a href="">서비스 센터 찾기</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">상담예약</a>
+							<ul>
+								<li><a href="">매장 상담 예약</a></li>
+								<li><a href="">영상 상담 예약</a></li>
+								<li><a href="">수어 상담 예약</a></li>
+								<li><a href="">상담 예약 조회</a></li>
+								<li><a href="">시스템 에어컨 상담 예약</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">제품정보</a>
+							<ul>
+								<li><a href="">내게 맞는 제품 찾기</a></li>
+								<li><a href="">제품 카탈로그</a></li>
+								<li><a href="">제품 사용 설명서</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">이벤트</a>
+							<ul>
+								<li><a href="">웨딩페어</a></li>
+								<li><a href="">베스트샵 라이브</a></li>
+								<li><a href="">아파트 입주 이벤트</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">제휴채널</a>
+							<ul>
+								<li><a href="">오브제 컬렉션 클럽</a></li>
+								<li><a href="">우리동네 파트너스</a></li>
+								<li><a href="">베스트샵 제휴 문의</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					
+				</div>
+				<div class="sitemap_img">
+					<ul>
+						<li><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/LG Labs-banner-BIG Naughty 3.avif" alt="sitemap_1"></a></li>
+						<li><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/img-theme-list_B_0707.avif" alt="sitemap_2"></a></li>
+					</ul>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+
+		
+
+        <div class="main_slider">
+			<div class="swiper-container mainSwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider1.jpg" alt="pc_slider_01"></a>
+												<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider1.jpg" alt="m_slider_01"></a>
+                        <div class="text_area">
+                            <a href="">
+                                <span>LG 가전 구독 라이프의 시작</span>
+                                <strong>함께하면 더 커지는 혜택<br>지금 구독하세요!</strong>
+                                <p>#더오래 #더깨끗하게 #라이프 맞춤 구독 서비스</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider2.jpg" alt="pc_slider_02"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider2.jpg" alt="m_slider_02"></a>
+											
+                        <div class="text_area">
+                            <a href="">
+                                <span>따뜻한 연말연시를 위해 준비했어요</span>
+								<strong>LG전자 BESTSHOP<br>HAPPY 윈터데이</strong>
+								<p>#12월의베스트샵 #잘가2023 #환영해2024</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider3.gif" alt="pc_slider_03"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider3.jpg" alt="m_slider_03"></a>
+                        <div class="text_area">
+                            <a href="">
+                                <span>2024 LG gram</span>
+								<strong>신모델 사전등록 EVENT!</strong>
+								<p>#2024그램 #신모델 #사전등록하고 #사은품받아가자</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider4.gif" alt="pc_slider_04"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider4.jpg" alt="m_slider_04"></a>
+                        <div class="text_area white">
+                            <a href="">
+                                <span>써 본 사람들이 무조건 만족하는</span>
+								<strong>Must-have 가전</strong>
+								<p>#꿈꾸던 삶 #일상이 되다 #Must&Best</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider5.gif" alt="pc_slider_05"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider5.jpg" alt="m_slider_05"></a>
+                        <div class="text_area">
+                            <a href="">
+                                <span>갑진년에도 베스트샵과 함께!</span>
+								<strong>갑진년 값진 혜택을 위한<br>신년맞이 쿠폰 받기!</strong>
+								<p>#환영해갑진년 #잘부탁드려요</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider6.jpg" alt="pc_slider_05"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider6.jpg" alt="m_slider_05"></a>
+                        <div class="text_area">
+                            <a href="">
+                                <span>가전은 역시 LG</span>
+								<strong>가전 구독도 역시 LG</strong>
+								<p>#LG에서 만나는 #구독라이프 #추가할인까지</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider7.jpg" alt="pc_slider_07"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider7.jpg" alt="m_slider_07"></a>
+                        <div class="text_area white">
+                            <a href="">
+                                <span>신제품 하이드로타워 출시</span>
+								<strong>정수의 기술로 완성한,<br>프리미엄 가습 라이프</strong>
+								<p>#건조한겨울 #이제그만 #정수가습기 #하이드로타워</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider8.jpg" alt="pc_slider_08"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider8.jpg" alt="m_slider_08"></a>
+                        <div class="text_area">
+                            <a href="">
+                                <span>예비 부부들은 주목!</span>
+								<strong>LG전자 베스트샵<br>오브제 웨딩 페어</strong>
+								<p>#예비신랑신부 #여기주목! #웨딩혜택</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider9.jpg" alt="pc_slider_09"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider9.jpg" alt="m_slider_09"></a>
+                        <div class="text_area white">
+                            <a href="">
+                                <span>LG전자 베스트샵</span>
+								<strong>BEST 매니저를 소개합니다!</strong>
+								<p>#명예의전당 #명예대명장 #전국상위0.3%</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider10.jpg" alt="pc_slider_10"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider10.jpg" alt="m_slider_10"></a>
+                        <div class="text_area">
+                            <a href="">
+                                <span>LG전자 BESTSHOP</span>
+                                <strong>2023 iPhone<br>고객 사랑 감사제</strong>
+                                <p>#지금 바로 #Apple #iPhone15</p>
+                            </a>
+                        </div>
+                    </div>
+					<div class="swiper-slide"><a href="" class="pc"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc-slider11.jpg" alt="pc_slider_11"></a>
+											<a href="" class="mobile"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/m-slider11.jpg" alt="m_slider_11"></a>
+                        <div class="text_area">
+                            <a href="">
+                                <span>갑진년에도 베스트샵과 함께!</span>
+                                <strong>갑진년 값진 혜택을 위한<br>신년맞이 쿠폰 받기!</strong>
+                                <p>#환영해갑진년 #잘부탁드려요</p>
+                            </a>
+                        </div>
+                    </div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>		
+			<div class="controller">
+				<ul>
+					<li><a href="" class="prev"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/btn_arrow_right.png" alt="left"></a></li>
+                    <li><a href="" class="next"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/btn_arrow_right.png" alt="right"></a></li>
+                    <li><a href="" id="pause_play" class="pause">pause</a></li>
+				</ul>
+			</div>
+			<div class="curent_num">
+				<span class="current"></span> / <span class="total"></span>
+			</div>
+		</div>
+
+
+                <section class="" id="page1">
+                    <section class="page1_inner">
+                        <div class="title">
+                            <h3>EVENT</h3>
+                            <p>LG전자만의 이벤트를 확인해보세요!</p>
+                        </div>
+                        <ul class="list">
+                            <li>    
+                                <a href="">
+                                    <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/1.svg" alt="Benefits of the Month">
+                                    <div class="text">
+                                        <p>이달의 혜택</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/2.svg" alt="event">
+                                    <div class="text">  
+                                        <p>이벤트</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/3.svg" alt="wedingpeeo">
+                                    <div class="text">
+                                        <p>상담예약</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/4.svg" alt="move event">
+                                    <div class="text">
+                                        <p>입주 이벤트</p>
+                                    </div>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section class="" id="page2">
+                    <section class="page2_inner">
+                        <div class="title">
+                            <h3>베스트샵 한눈에 보기</h3>
+                            <p>베스트샵만의 다양한 소식을 한눈에 확인해보세요</p>
+                        </div>
+                        <ul class="list">
+                            <li>
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon_vector_SVG (1).svg" alt="location">
+                                    </div>
+                                    
+                                    <div class="text">
+                                        <h4>매장찾기</h4>
+                                        <span>나에게 가까운 매장은?</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon_vector_SVG (2).svg" alt="location">
+                                    </div>
+                                    
+                                    <div class="text">
+                                        <h4>제품찾기</h4>
+                                        <span>내게 맞는 제품은?</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon_vector_SVG (3).svg" alt="location">
+                                    </div>
+                                    
+                                    <div class="text">
+                                        <h4>오픈매장</h4>
+                                        <span>행사 매장 안내</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon_vector_SVG (5).svg" alt="location">
+                                    </div>
+                                    
+                                    <div class="text">
+                                        <h4>라이브방송</h4>
+                                        <span>베스트샵 라이브 보기</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon_vector_SVG (6).svg" alt="location">
+                                    </div>
+                                    
+                                    <div class="text">
+                                        <h4>매장상담 예약</h4>
+                                        <span>원하는 시간에 상담!</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/icon_vector_SVG (8).svg" alt="location">
+                                    </div>
+                                    
+                                    <div class="text">
+                                        <h4>구독&케어샵 </h4>
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section class="" id="page3">
+                    <section class="page3_inner">
+                        <div class="title">
+                            <h3>베스트샵 스토리</h3>
+                            <p>베스트샵의 다양한 소식과 혜택을 만나보세요!</p>
+                            <a href="">더보기</a>
+                        </div>
+                        <div class="container">
+                            <div id="sub_slider">
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <!-- <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc/sub_contents_slider_01.jpg" alt="slider_01"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc/sub_contents_slider_02.jpg" alt="slider_02"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc/sub_contents_slider_03.jpg" alt="slider_03"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc/sub_contents_slider_04.jpg" alt="slider_04"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc/sub_contents_slider_05.jpg" alt="slider_05"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/pc/sub_contents_slider_06.jpg" alt="slider_06"></a></div> -->
+                                        <div class="swiper-slide">
+											<a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss1.webp" alt="slider_01">
+											<div class="title">LG스타일러 오브제컬렉션</div>
+											</a>
+										</div>
+                                        <div class="swiper-slide">
+											<a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss2.avif" alt="slider_01">
+											<div class="title">LG 톤프리</div>
+											</a>
+										</div>
+                                        <div class="swiper-slide">
+											<a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss3.avif" alt="slider_01">
+											<div class="title">LG퓨리케어 오브제컬렉션<br>정수기(라이트온,정수전용)</div>
+											</a>
+										</div>
+                                        <div class="swiper-slide">
+											<a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss4.avif" alt="slider_01">
+											<div class="title">LG그램 Pro</div>
+											</a>
+										</div>
+                                        <div class="swiper-slide">
+											<a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss6.avif" alt="slider_01">
+											<div class="title">LG휘센 오브제컬렉션<br>타워I 사계절에어컨(프리미엄)</div>
+											</a>
+										</div>
+                                        <div class="swiper-slide">
+											<a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss7.avif" alt="slider_01">
+											<div class="title">LG퓨리케어 오브제컬렉션<br>LG트윈스 챔피언 에디션</div>
+											</a>
+										</div>
+                                        <div class="swiper-slide">
+											<a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss8.avif" alt="slider_01">
+											<div class="title">LG 스탠바이미 GO<br>하이드로타워</div>
+											</a>
+										</div>
+                                        <div class="swiper-slide">
+											<a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss9.avif" alt="slider_01">
+											<div class="title">LG 스탠바이미 스피커</div>
+											</a>
+										</div>
+                                        <!-- <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss2.avif" alt="slider_02"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss3.avif" alt="slider_03"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss4.avif" alt="slider_04"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss5.avif" alt="slider_05"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss6.avif" alt="slider_06"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss7.avif" alt="slider_07"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss8.avif" alt="slider_08"></a></div>
+                                        <div class="swiper-slide"><a href=""><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ss9.avif" alt="slider_09"></a></div> -->
+                                        
+                                    </div>
+                                    
+                                    <div class="controller">
+                                        <ul>
+                                            <li><a href="" class="prev"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/arrow_right.png" alt="left"></a></li>
+                                            <li><a href="" class="next"><img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/arrow_right.png" alt="right"></a></li>        
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-scrollbar"></div>		
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="" id="page4">
+                    <section class="page4_inner">
+                        <div class="title">
+                            <h3>베스트샵 <span>Live</span></h3>
+                        </div>
+
+                        <div class="top">
+                            <a href="https://youtu.be/94C7LfFnwYo?si=h5tF9mtiC-DjAdty" class="video">
+                                <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/Live_img.svg" alt="">
+                            </a>
+                            <div class="text">
+                                <p>프리미엄 가습가전</p>
+                                <h4> 그 기술의 정점<br>Life's Good</h4>
+                                <span>LG 퓨리케어 오브제컬렉션 하이드로타워</span>
+                                <a href="" class="link"><p>LG BestShop</p>   영상 더보기</a>
+                            </div>
+                        </div>
+
+                        <div class="bottom">
+                            <div class="news">
+                                <div class="info">
+                                    <h4>공지사항</h4>
+                                    <a href="">더보기</a>
+                                </div>
+                                <div class="list">
+                                    <ul>
+                                        <li>
+                                            <a href="">그램 사전 예약 라이브 방송 사전 알림 신청 EVENT</a>
+                                            <span>2023.10.20</span>
+                                        </li>
+                                        <li>
+                                            <a href="">연말 결산(웨딩,아파트) 라이브 방송 사전 알림 신청 EVENT내</a>
+                                            <span>2023.09.08</span>
+                                        </li>
+                                        <li>
+                                            <a href="">구독기획전 라이브 방송 사전 알림 신청 EVENT</a>
+                                            <span>2023.09.06</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                                <div class="faq">
+                                    <div class="info">
+                                        <h4>상담 예약</h4>
+                                        <a href="">바로가기</a>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="">
+                                            <p>"LG BestShop"에 대한 궁금하신<br>내용을 확인해보세요</p>
+                                            <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/helpdesk.svg" alt="help">
+                                        </a>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </section>
+                </section>
+
+                <footer>
+                    <div class="footer_inner">
+                        <div class="footer_top">
+                            <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ico_customer.svg" alt="care">
+                            <h4>LG전자 BESTSHOP 고객지원센터</h4>
+                            <strong>1544-7777</strong>
+                            <span>(이용가능시간 : 평일 08:00 ~ 18:00)</span>
+                        </div>
+
+                        <div class="footer_bottom">
+                            <div class="left">
+                                <a href="">
+                                    <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/footer_logo (1).svg" alt="">
+                                </a>
+                                <div class="address">
+                                    <span>서울시 영등포구 여의대로 128 LG트윈타워</span>
+                                    <p>Copyright © 2022 LG Electronics. All Rights Reserved.</p>
+                                </div>
+                                    
+                            </div>
+                            <div class="footer_menu">
+                                <a href="" class="site">
+                                    <span>
+                                        FAMILY SITE
+                                    </span>
+                                    <img src="https://sjwcode09.github.io/resource/web_publisher/Project_1/ico_arrow_bt.svg" alt="up">
+                                </a>
+								<ul class="popup">
+									<li><a href="">LGE.COM</a></li>
+									<li><a href="">LG전자 서비스센터</a></li>
+									<li><a href="">LG전자 B2B</a></li>
+									<li><a href="">LG전자 시스템에어컨</a></li>
+									<li><a href="">LG Careers</a></li>
+								</ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+    </div>
+	<div class="dim"></div>
+	<div class="dim_main"></div>
+	<!-- <div class="dim_main"></div> -->
+</body>
+</html>
